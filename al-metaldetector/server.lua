@@ -25,8 +25,8 @@ function GetTier(Chance)
         Tier = 'Tier1'
     elseif Chance <= 99 then
         Tier = 'Tier2'
---    else
---        Tier = 'Tier3'
+    else
+        Tier = 'Tier3'
     end
     return Tier
 end
@@ -41,8 +41,8 @@ function GetAmount(Tier)
         Amount = math.random(1, 10)
     elseif Tier == 'Tier2' then 
         Amount = math.random(1, 3)
---    else
---        Amount = 1
+    else
+        Amount = 1
     end
     return Amount
 end
