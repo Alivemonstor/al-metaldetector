@@ -15,7 +15,7 @@ AddEventHandler('al-metaldetector:additems', function()
     local Amount = GetAmount(Tier)
     Player.Functions.AddItem(Item, Amount)
     TriggerClientEvent("inventory:client:ItemBox", src, QBCore.Shared.Items[Item], "add")
-    TriggerClientEvent('QBCore:Notify', src, "You Found Something..".. randomItem .."..!", "success")
+    TriggerClientEvent('QBCore:Notify', src, "You Found Something..".. Item .."..!", "success")
 end)
 
 
