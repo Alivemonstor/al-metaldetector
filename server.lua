@@ -1,4 +1,3 @@
-
 local QBCore = exports['qb-core']:GetCoreObject()
 
 QBCore.Functions.CreateUseableItem("metaldetector", function(src, item)
@@ -17,7 +16,6 @@ AddEventHandler('al-metaldetector:additems', function()
     TriggerClientEvent("inventory:client:ItemBox", src, QBCore.Shared.Items[Item], "add")
     TriggerClientEvent('QBCore:Notify', src, "You Found Something..".. Item .."..!", "success")
 end)
-
 
 function GetTier(Chance)
     local Tier = nil

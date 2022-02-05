@@ -1,4 +1,3 @@
-
 Config = {}
 
 Config.MetalLoot = {
