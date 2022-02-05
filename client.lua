@@ -1,6 +1,4 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-local source = src
-local Player = QBCore.Functions.GetPlayerData(src)
 
 RegisterNetEvent('al-metaldetector:detect')
 AddEventHandler('al-metaldetector:detect', function()
