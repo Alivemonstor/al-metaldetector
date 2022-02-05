@@ -5,7 +5,7 @@ Preview of the script:https://www.youtube.com/watch?v=Uk-hqCwVUxI
 A simple metal detector script, with configurable items
 
 
-Make sure you add to qb-smallresources
+Make sure you add to your items.lua (qb-core/shared/items.lua)
 
     ["metaldetector"] = {
         ["name"] = "metaldetector",					
