@@ -1,5 +1,5 @@
 # al-metaldetector
-A custom metal detector script, with configurable items
+A simple metal detector script, with configurable items
 
 
 Make sure you add to qb-smallresources
