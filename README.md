@@ -20,7 +20,6 @@ Make sure you add to your items.lua (qb-core/shared/items.lua)
         ["description"] = "*beep*, *beep*"},
     },
 
-
-and you can add whatever png you like 🤷‍♂️
+Make sure to also add metaldetector.png to your inventory script's image folder.
 
 This is also my first script so please share some ideas, you would like to see for this
