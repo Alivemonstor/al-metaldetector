@@ -1,4 +1,7 @@
 # al-metaldetector
+
+Preview of the script:https://www.youtube.com/watch?v=Uk-hqCwVUxI
+
 A simple metal detector script, with configurable items
 
 
