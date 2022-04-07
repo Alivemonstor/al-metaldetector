@@ -1,6 +1,6 @@
 # al-metaldetector
 
-A simple metal detector script, with configurable items
+An updated metal detector script, with configurable items, created systems, easy drag and drop
 
 ## Video Preview
 https://www.youtube.com/watch?v=Uk-hqCwVUxI
