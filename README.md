@@ -13,6 +13,7 @@ https://www.youtube.com/watch?v=Uk-hqCwVUxI
 
 ## Items
 Make sure you add to your items.lua (qb-core/shared/items.lua)
+<pre>
 
 ["metaldetector"] = {
     ["name"] = "metaldetector",
@@ -39,10 +40,11 @@ Make sure you add to your items.lua (qb-core/shared/items.lua)
     ["combinable"] = nil,
     ["description"] = 'Shrivelled up paper',
 },
+</pre>
 
 Make sure to also add everything in the images folder to your inventory script's image folder.
 
-##Shoutouts
+## Shoutouts
 Big Thanks to <a href ="https://github.com/plasmaFPS">**PlasmaFPS**</a> for allowing me to use and repurpose his code!
 Custom Prop made by <a href="https://www.turbosquid.com/3d-models/3d-metal-detector/1138741">**Vartanyan**</a>
 
