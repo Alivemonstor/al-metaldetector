@@ -1,25 +1,50 @@
 # al-metaldetector
 
-Preview of the script: https://www.youtube.com/watch?v=Uk-hqCwVUxI
-
 A simple metal detector script, with configurable items
 
+## Video Preview
+https://www.youtube.com/watch?v=Uk-hqCwVUxI
 
+## Dependencies
+- <a href="https://github.com/qbcore-framework/qb-core">**qb-core**</a>
+- <a href="https://github.com/qbcore-framework/qb-menu">**qb-menu**</a>
+- <a href="https://github.com/BerkieBb/qb-target">**qb-target**</a>
+- <a href="https://github.com/mkafrin/PolyZone">**PolyZone**</a>
+
+## Items
 Make sure you add to your items.lua (qb-core/shared/items.lua)
 
-    ["metaldetector"] = {
-        ["name"] = "metaldetector",					
-        ["label"] = "Metal Detector",					
-        ["weight"] = 200,		
-        ["type"] = "item",		
-        ["image"] = "metaldetector.png",				
-        ["unique"] = false, 	
-        ["useable"] = true,	
-        ["shouldClose"] = true,	
-        ["combinable"] = nil,	
-        ["description"] = "*beep*, *beep*"},
-    },
+["metaldetector"] = {
+    ["name"] = "metaldetector",
+    ["label"] = "Metal Detector",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "metaldetector.png",
+    ["unique"] = false,
+    ["useable"] = true,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = '*beep*, *beep*',
+},
 
-Make sure to also add metaldetector.png to your inventory script's image folder.
+["treasuremap"]= {
+    ["name"] = "treasuremap",
+    ["label"] = "Treasure Map",
+    ["weight"] = 100,
+    ["type"] = "item",
+    ["image"] = "treasuremap.png",
+    ["unique"] = false,
+    ["useable"] = true,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = 'Shrivelled up paper',
+},
 
-This is also my first script so please share some ideas, you would like to see for this
+Make sure to also add everything in the images folder to your inventory script's image folder.
+
+##Shoutouts
+Big Thanks to <a href ="https://github.com/plasmaFPS">**PlasmaFPS**</a> for allowing me to use and repurpose his code!
+Custom Prop made by <a href="https://www.turbosquid.com/3d-models/3d-metal-detector/1138741">**Vartanyan**</a>
+
+
+
