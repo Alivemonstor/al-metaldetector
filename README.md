@@ -7,7 +7,6 @@ https://www.youtube.com/watch?v=Uk-hqCwVUxI
 
 ## Dependencies
 - <a href="https://github.com/qbcore-framework/qb-core">**qb-core**</a>
-- <a href="https://github.com/qbcore-framework/qb-menu">**qb-menu**</a>
 - <a href="https://github.com/BerkieBb/qb-target">**qb-target**</a>
 - <a href="https://github.com/mkafrin/PolyZone">**PolyZone**</a>
 
@@ -28,7 +27,7 @@ Make sure you add to your items.lua (qb-core/shared/items.lua)
     ["description"] = '*beep*, *beep*',
 },
 
-["treasuremap"]= {
+["treasuremap"] = {
     ["name"] = "treasuremap",
     ["label"] = "Treasure Map",
     ["weight"] = 100,
